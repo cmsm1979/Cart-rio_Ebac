@@ -57,12 +57,10 @@ int registro() //Função responsável por cadastar os usuários no sistema
 	fclose(file);
 	
 	system("pause");
-	
-}
+	}
 
 int consultar()
 {
-	
 	setlocale(LC_ALL, "Portuguese"); //Definindo a linguagem
 	
 	char cpf[40];
@@ -87,9 +85,7 @@ int consultar()
 		printf("%s", conteudo);
 		printf("\n\n");
 	}
-  	
-	system ("pause");
-			
+  	system ("pause");
 }
 
 int deletar()
@@ -111,7 +107,6 @@ int deletar()
 	}
 
 	system("pause");
-
 }
 
 int main()
@@ -138,7 +133,6 @@ int main()
 		
 		system("cls"); //Responsável por limpar a tela
 		
-
 		switch(opcao) //Início da seleção de menu
 		{
 			case 1:
@@ -165,8 +159,7 @@ int main()
 			system("pause");
 			break;
 		} //Fim da seleção
-		
-			
+				
  	} 
 	
 }
